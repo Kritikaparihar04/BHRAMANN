@@ -1,7 +1,25 @@
-img {
-    display: flex;
-}
+ body{
+     font-family: sans-serif;
+ }
 
-body{
-    background-color: rgb(189, 187, 187);
-}
+ h1{
+     text-align: center;
+     color:forestgreen;
+     margin: 10px 50px;
+ }
+
+
+ .gallery {
+     margin: 10px 50px;
+ }
+ .gallery img{
+width: 230px;
+padding: 5px;
+transition: 1s;
+filter: grayscale(10%);
+ }
+
+ .gallery img:hover{
+     filter: grayscale(0);
+     transform: scale(1.2);
+ }
