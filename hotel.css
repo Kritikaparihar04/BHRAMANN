@@ -4,6 +4,12 @@ body{
     background-color: rgb(255, 255, 254);    
 
 }
+
+@media screen and (min-width: 480px) {
+    body {
+      justify-content: space-around;
+    }
+  }
 .main_page{
     height:100%;
     width: 100%;
@@ -16,11 +22,18 @@ body{
     width: 250px;
     margin-left: 10px;
     border-radius: 10px;
-    background-color:rgb(186, 179, 179);
-    box-shadow: rgb(201, 197, 197);
+    background-color:rgb(240, 235, 235);
+    box-shadow: rgb(235, 205, 205);
     padding: 10px  ;
     text-align: center;
 }
+ .main_card:hover{
+     width: 270px;
+     height: 330px;
+     cursor: pointer;
+
+
+ }
 .main_card img{
     height: 200px;
     width: 230px;
@@ -44,6 +57,33 @@ button{
     background-color: olivedrab;
     font-weight: 200;
     height: 0.75cm;
+    box-shadow: 20px;
+    font-optical-sizing: 20px;
 
+    cursor: pointer;
 
 }
+
+button:hover{
+    background-color: rgb(245, 245, 39);
+    font-size: larger;
+
+}
+.nav{
+    height: 2cm;
+    width: 100%;
+    background-color: olivedrab;
+    background-image: linear-gradient(rgb(122, 181, 4),rgb(235, 235, 81));
+    color: white;
+    font-size: 1cm;
+    font-weight: 800;
+    text-shadow: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 25%;
+    padding-top: 10px;
+    
+ } 
+ .nav:hover{
+    font-size: 1.2cm;
+ }
+ 
